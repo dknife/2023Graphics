@@ -11,7 +11,7 @@
 
 ### 강의노트
 
-[강의 00 - 강의소개](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec00_Orientation.pdf)
+[강의 00 - 강의소개](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec00_Orientation.pdf)
 
 
 
