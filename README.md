@@ -9,5 +9,9 @@
 
 ### 담당교수 연락처: ymkang @ tu.ac.kr
 
+### 강의노트
+
+[강의 00 - 강의소개](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec00_Orientation.pdf)
+
 
 
