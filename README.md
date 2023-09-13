@@ -37,4 +37,7 @@
 
 [실습 1-04 함수](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/04_function.py)
 
+[실습 1-05 pyQt 시작](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/05_pyqt.py)
+
+[실습 1-06 pyQt Widgets](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/06_windowApp.py)
 
