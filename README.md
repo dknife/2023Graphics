@@ -17,4 +17,4 @@
 
 [강의 02 - 그래픽스 프로그래밍 환경 구축](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming.pdf)
 
-  [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming_Pres.pdf)
+*  [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming_Pres.pdf)
