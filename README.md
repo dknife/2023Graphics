@@ -15,5 +15,6 @@
 
 [강의 01 - 그래픽스 소개](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec01_Introduction2Graphics.pdf)
 
-[강의 01 - 그래픽스 프로그래밍 환경 구축](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming.pdf)
+[강의 02 - 그래픽스 프로그래밍 환경 구축](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming.pdf)
+
   [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming_Pres.pdf)
