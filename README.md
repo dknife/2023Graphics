@@ -24,3 +24,7 @@
 * [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming.pdf)
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming_Pres.pdf)
+
+### 실습기록
+
+[실습 1-01]()
