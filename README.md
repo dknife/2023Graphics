@@ -27,4 +27,12 @@
 
 ### 실습기록
 
-[실습 1-01]()
+[실습 1-01 변수](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/01_variables.py)
+
+[실습 1-02 조건문과 반복문](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/02_control.py)
+
+[실습 1-03 리스트](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/03_list.py)
+
+[실습 1-04 함수](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/04_function.py)
+
+
