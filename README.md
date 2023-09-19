@@ -25,6 +25,13 @@
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec02_BasicGraphicsProgramming_Pres.pdf)
 
+* 강의 03 - OpenGL 프리미티브
+
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec03_Primitives.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec03_Primitives_Pres.pdf)
+
+
 ### 실습기록
 
 #### 실습 1
