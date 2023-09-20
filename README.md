@@ -56,7 +56,7 @@
 
 ##### 교재 코드 수정(API 변화)
 
-self.painter.drawPoint(POINTS[i][0], POINTS[i][1]) $\rightarrow$ self.painter.drawPoint(QPointF(POINTS[i][0], POINTS[i][1]))
+self.painter.drawPoint(POINTS[i][0], POINTS[i][1]) $\rightarrow$ self.painter.drawPoint(**QPointF**(POINTS[i][0], POINTS[i][1]))
 
 self.painter.drawLine(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]) $\rightarrow$ self.painter.drawLine(*QLineF*(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
 
