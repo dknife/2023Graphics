@@ -52,3 +52,4 @@
 
 [실습 2-01 첫 오픈지엘 윈도우](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_01_firstOpenGLWidget.py)
 
+[실습 2-02 프리미티브 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_02_primitives.py)
