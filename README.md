@@ -48,3 +48,7 @@
 
 [실습 1-06 pyQt Widgets](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex01/06_windowApp.py)
 
+#### 실습 2
+
+[실습 2-01 첫 오픈지엘 윈도우]()
+
