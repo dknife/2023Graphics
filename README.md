@@ -54,6 +54,8 @@
 
 [실습 2-02 프리미티브 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_02_primitives.py)
 
+[실습 2-02 프리미티브 연습 2 - 원 그리기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_02_primitives_circle.py)
+
 [실습 2-Project 프리미티브 조작](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_03_primitiveControl.py)
 
 ##### 교재 코드 수정(API 변화)
