@@ -55,9 +55,9 @@
 [실습 2-02 프리미티브 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_02_primitives.py)
 
 교재 코드 수정(API 변화)
-self.painter.drawPoint(QPointF(POINTS[i][0], POINTS[i][1]))
+self.painter.drawPoint(POINTS[i][0], POINTS[i][1]) $\rightarrow$ self.painter.drawPoint(QPointF(POINTS[i][0], POINTS[i][1]))
 
-self.painter.drawLine(QLineF(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1])) $\rightarrow$ self.painter.drawLine(QLineF(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
+self.painter.drawLine(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]) $\rightarrow$ self.painter.drawLine(QLineF(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
 
 <pre>
 def paintEvent(self, event):
