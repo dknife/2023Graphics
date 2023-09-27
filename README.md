@@ -31,6 +31,11 @@
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec03_Primitives_Pres.pdf)
 
+강의 04 - 카메라와 투영
+
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec04_CameraProjection.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec04_CameraProjection_pres.pdf)
 
 ### 실습기록
 
