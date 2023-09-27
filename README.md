@@ -68,3 +68,5 @@
 [실습 3-01 glOrtho 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
 
 [실습 3-02 왜곡없는 좌표계](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
+
+[실습 3-03 두 개의 OpenGL 위짓]
