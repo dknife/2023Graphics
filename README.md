@@ -69,23 +69,4 @@ self.painter.drawPoint(POINTS[i][0], POINTS[i][1]) $\rightarrow$ self.painter.dr
 
 self.painter.drawLine(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]) $\rightarrow$ self.painter.drawLine(**QLineF**(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
 
-<pre>
-def paintEvent(self, event):
-        global POINTS
-
-        self.painter.begin(self)
-        self.painter.setPen(QPen(Qt.GlobalColor.red, 6))
-
-        for i in range(len(POINTS)):
-            self.painter.drawPoint(QPointF(POINTS[i][0], POINTS[i][1]))
-
-        self.painter.setPen(QPen(Qt.GlobalColor.blue, 2))
-        for i in range(len(POINTS) - 1):
-            self.painter.drawLine(QLineF(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
-        self.painter.end()
-</pre>
-
-
-#### 실습 3
-
-[실습 3-01 glOrtho 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_01_glOrthoTest.py)
+<계](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
