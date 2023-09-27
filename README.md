@@ -63,10 +63,8 @@
 
 [실습 2-Project 프리미티브 조작](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex02/02_03_primitiveControl.py)
 
-##### 교재 코드 수정(API 변화)
+#### 실습 3
 
-self.painter.drawPoint(POINTS[i][0], POINTS[i][1]) $\rightarrow$ self.painter.drawPoint(**QPointF**(POINTS[i][0], POINTS[i][1]))
+[실습 3-01 glOrtho 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
 
-self.painter.drawLine(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]) $\rightarrow$ self.painter.drawLine(**QLineF**(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
-
-<계](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
+[실습 3-02 왜곡없는 좌표계](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_02_glOrthoTest.py)
