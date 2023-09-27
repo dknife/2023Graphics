@@ -84,3 +84,8 @@ def paintEvent(self, event):
             self.painter.drawLine(QLineF(POINTS[i][0], POINTS[i][1],POINTS[i + 1][0], POINTS[i + 1][1]))
         self.painter.end()
 </pre>
+
+
+#### 실습 4
+
+[실습 4-01 glOrtho 연습]() 
