@@ -74,3 +74,5 @@
 [실습 3-04 두 창에 나선 그리기기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_04_DrawHelixInTwoViews.py)
 
 [실습 3-05 서로 다른 동작을 하는 GL 위짓](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_05_DifferentActionsInTwoViews.py)
+
+[실습 3-06 카메라를 옮겨 관측공간 확인하기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_06_Observation.py)
