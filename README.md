@@ -86,6 +86,6 @@ def paintEvent(self, event):
 </pre>
 
 
-#### 실습 4
+#### 실습 3
 
-[실습 4-01 glOrtho 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_01_glOrthoTest.py)
+[실습 3-01 glOrtho 연습](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_01_glOrthoTest.py)
