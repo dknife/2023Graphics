@@ -82,38 +82,7 @@
 ### 실습 4
 
 #### Frustum 그리기
-``` python
-def drawFrustum(l, r, b, t, n, f):
-    # 뒷면의 좌우하상 좌표를 구하자
-    L = l * (f/n)
-    R = r * (f/n)
-    B = b * (f/n)
-    T = t * (f/n)
-    # 절두체의 앞면을 그리기
-    glColor3f(1,1,1)
-    glBegin(GL_LINE_LOOP)
-    glVertex3f(l,t,-n)    
-    glVertex3f(l,b,-n)
-    glVertex3f(r,b,-n)
-    glVertex3f(r,t,-n)    
-    glEnd()
-    # 절두체 뒷면 그리기
-    glBegin(GL_LINE_LOOP)
-    glVertex(L,T,-f)
-    glVertex(L,B,-f)
-    glVertex(R,B,-f)
-    glVertex(R,T,-f)
-    glEnd()
-    # 앞뒷면 연결
-    glBegin(GL_LINES)
-    glVertex3f(l,t,-n) 
-    glVertex3f(L,T,-f)   
-    glVertex3f(l,b,-n)
-    glVertex3f(L,B,-f)
-    glVertex3f(r,b,-n)
-    glVertex3f(R,B,-f)
-    glVertex3f(r,t,-n)
-    glVertex3f(R,T,-f)    
-    glEnd()
-```
+
+[코드 Frustum 그리기](https://github.com/dknife/2023Graphics/wiki/Frustum-%EA%B7%B8%EB%A6%AC%EA%B8%B0)
+
 [실습 4-01 glFrustum 관찰하기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_01_glFrustum.py)
