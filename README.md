@@ -78,3 +78,41 @@
 [실습 3-06 카메라를 옮겨 관측공간 확인하기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_06_Observation.py)
 
 [실습 3-07 glOrtho 관측공간 관찰 최종](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/03_07_ObservationFinal.py)
+
+### 실습 4
+
+#### Frustum 그리기
+``` python
+def drawFrustum(l, r, b, t, n, f):
+    # 뒷면의 좌우하상 좌표를 구하자
+    L = l * (f/n)
+    R = r * (f/n)
+    B = b * (f/n)
+    T = t * (f/n)
+    # 절두체의 앞면을 그리기
+    glColor3f(1,1,1)
+    glBegin(GL_LINE_LOOP)
+    glVertex3f(l,t,-n)    
+    glVertex3f(l,b,-n)
+    glVertex3f(r,b,-n)
+    glVertex3f(r,t,-n)    
+    glEnd()
+    # 절두체 뒷면 그리기
+    glBegin(GL_LINE_LOOP)
+    glVertex(L,T,-f)
+    glVertex(L,B,-f)
+    glVertex(R,B,-f)
+    glVertex(R,T,-f)
+    glEnd()
+    # 앞뒷면 연결
+    glBegin(GL_LINES)
+    glVertex3f(l,t,-n) 
+    glVertex3f(L,T,-f)   
+    glVertex3f(l,b,-n)
+    glVertex3f(L,B,-f)
+    glVertex3f(r,b,-n)
+    glVertex3f(R,B,-f)
+    glVertex3f(r,t,-n)
+    glVertex3f(R,T,-f)    
+    glEnd()
+```
