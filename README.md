@@ -116,3 +116,4 @@ def drawFrustum(l, r, b, t, n, f):
     glVertex3f(R,T,-f)    
     glEnd()
 ```
+[실습 4-01 glFrustum 관찰하기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_01_glFrustum.py)
