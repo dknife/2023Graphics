@@ -90,3 +90,5 @@
 [실습 4-02 FPS형 카메라 제어를 위한 공간 만들기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_02_drawSpace.py)
 
 [실습 4-03 FPS형 카메라 제어: 전진](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_02_moveForward.py)
+
+[실습 4-04 FPS형 카메라 제어: 전후진, 방향전환 완성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_03_FPSMove.py)
