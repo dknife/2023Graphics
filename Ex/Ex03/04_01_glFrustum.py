@@ -17,8 +17,8 @@ def drawHelix(): ## 나선을 그리는 함수
     for i in range(1000):
         angle = i/10
         x, y = math.cos(angle), math.sin(angle)
-        z = angle/10
-        glVertex3f(x,y,-z)
+        z = -angle/10
+        glVertex3f(x,y,z)
     glEnd()
 
 def drawFrustum(l, r, b, t, n, f):
@@ -55,6 +55,7 @@ def drawFrustum(l, r, b, t, n, f):
     glEnd()
 
 
+
 def drawAxes():  ## 축을 그리는 함수
     glBegin(GL_LINES)
     glColor3f(1,0,0)
@@ -71,8 +72,8 @@ def drawAxes():  ## 축을 그리는 함수
 class MyGLWidget(QOpenGLWidget) :
     
     left = bottom = -2.0
-    right = top = far = 2.0
-    near = 0.5 # Frustum에서는 near가 반드시 양수
+    right = top = near = 2.0
+    far = 4
 
     def __init__(self, observation = False):
         super().__init__()
@@ -82,18 +83,13 @@ class MyGLWidget(QOpenGLWidget) :
         pass
 
     def resizeGL(self, w, h):
-        glMatrixMode(GL_PROJECTION)
-        glLoadIdentity()
-        if self.observation == True:
-            glOrtho(self.left*2, self.right*2, self.bottom*2, self.top*2, -100, 100)
-        else:
-            glOrtho(self.left, self.right, self.bottom, self.top, self.near, self.far)
+        pass
 
     def paintGL(self):
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
         if self.observation == True:
-            glOrtho(-4, 4, -4, 4, -100, 100)
+            glFrustum(-1, 1, -1, 1, 2, 30)
         else:
             glFrustum(self.left, self.right, self.bottom, self.top, self.near, self.far)
 
@@ -101,7 +97,7 @@ class MyGLWidget(QOpenGLWidget) :
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
         if self.observation == True:
-            gluLookAt(1, 0.5, 0.5, 0, 0, 0, 0, 1, 0)
+            gluLookAt(20, 7, 6, 0, 0, 0, 0, 1, 0)
         drawAxes()
         drawHelix()
         drawFrustum(self.left, self.right, self.bottom, self.top, self.near, self.far)
