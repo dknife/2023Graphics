@@ -86,3 +86,5 @@
 [코드 Frustum 그리기](https://github.com/dknife/2023Graphics/wiki/Frustum-%EA%B7%B8%EB%A6%AC%EA%B8%B0)
 
 [실습 4-01 glFrustum 관찰하기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_01_glFrustum.py)
+
+[실습 4-02 FPS형 카메라 제어를 위한 공간 만들기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_02_drawSpace.py)
