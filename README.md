@@ -37,6 +37,12 @@
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec04_CameraProjection_pres.pdf)
 
+강의 05 - 그리기 속도 높이기
+
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec05_RenderingEfficiency.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec05_RenderingEfficiency_pres.pdf)
+
 ### 실습기록
 
 #### 실습 1
