@@ -92,3 +92,11 @@
 [실습 4-03 FPS형 카메라 제어: 전진](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_02_moveForward.py)
 
 [실습 4-04 FPS형 카메라 제어: 전후진, 방향전환 완성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex03/04_03_FPSMove.py)
+
+### 실습 5
+
+[실습 5-01 비효율적인 그리기]
+
+[실습 5-02 디스플레이 리스트]
+
+[실습 5-03 그리기 속도 비교]
