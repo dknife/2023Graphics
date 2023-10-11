@@ -109,4 +109,6 @@
 
 [실습 5-04 glDrawArrays](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_04_drawArrays.py)
 
-[실습 5-05 glDrawElements]
+[실습 5-05 색상 버퍼 추가](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_05_colorBuffer.py)
+
+[실습 5-06 glDrawElements]
