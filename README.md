@@ -105,7 +105,7 @@
 
 [실습 5-02 디스플레이 리스트]
 
-[실습 5-03 그리기 속도 비교]
+[실습 5-03 그리기 속도 비교](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_03_Compare.py)
 
 [실습 5-04 glDrawArrays]
 
