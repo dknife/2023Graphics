@@ -116,4 +116,4 @@ vertexBuffer = [ [0.0, 1.0, 0.0], [-0.5, 0.0, 0.0], [0.5, 0.0, 0.0] ,[-1.0, -1.0
 indexBuffer = [ 0, 1, 2, 1, 3, 4, 2, 4, 5]
 
 ```
-[실습 5-06 glDrawElements]
+[실습 5-06 glDrawElements](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_06_drawElements.py)
