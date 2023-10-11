@@ -20,6 +20,18 @@ class MyGLWidget(QOpenGLWidget):
     def initializeGL(self):
         # OpenGL 그리기를 수행하기 전에 각종 상태값을 초기화
         glClearColor(0.0, 0.0, 0.0, 1.0)  
+
+        self.vertexBuffer = [ [0.0, 1.0, 0.0], 
+                             [-0.5, 0.0, 0.0], 
+                             [0.5, 0.0, 0.0] ,
+                             [-1.0, -1.0, 0.0], 
+                             [0.0, -1.0, 0.0], 
+                             [1.0, -1.0, 0.0] ]
+        
+        self.indexBuffer = [ 0, 1, 2, 1, 3, 4, 2, 4, 5]
+
+        glEnableClientState(GL_VERTEX_ARRAY)
+        glVertexPointer(3, GL_FLOAT, 0, self.vertexBuffer)
        
        
        
@@ -36,6 +48,16 @@ class MyGLWidget(QOpenGLWidget):
         glLoadIdentity()
        
         gluLookAt(0,0,-3, 0,0,0, 0,1,0)
+
+        glColor3f(0, 0, 1)
+        glPointSize(10)
+        glBegin(GL_POINTS)
+        for i in range(len(self.vertexBuffer)) :
+            glVertex3fv(self.vertexBuffer[i])            
+        glEnd()
+
+        glColor3f(1, 0, 1)
+        glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, self.indexBuffer)
 
 
 class MyWindow(QMainWindow):
