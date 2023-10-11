@@ -107,6 +107,6 @@
 
 [실습 5-03 그리기 속도 비교](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_03_Compare.py)
 
-[실습 5-04 glDrawArrays]
+[실습 5-04 glDrawArrays](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_04_drawArrays.py)
 
 [실습 5-05 glDrawElements]
