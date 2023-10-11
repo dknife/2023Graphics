@@ -101,7 +101,7 @@
 
 ### 실습 5
 
-[실습 5-01 비효율적인 그리기]
+[실습 5-01 비효율적인 그리기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex05/05_01_ManyVerts.py)
 
 [실습 5-02 디스플레이 리스트]
 
