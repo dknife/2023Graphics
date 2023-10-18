@@ -125,3 +125,5 @@
 [메시 데이터 예시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/mesh.txt)
 
 [실습 06-01 정점 읽기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_01_MeshOpen.py)
+
+[실습 06-02 메시 정점 그리기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_02_MeshDrawPoints.py)
