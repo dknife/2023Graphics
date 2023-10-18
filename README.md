@@ -120,6 +120,8 @@
 
 ### 실습 6
 
-[메시를 보일 윈도우 생성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/0601_meshLoader.py)
+[메시를 보일 윈도우 생성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/0601_meshBasic.py)
 
 [메시 데이터 예시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/mesh.txt)
+
+[실습 06-01 정점 읽기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_01_MeshOpen.py)
