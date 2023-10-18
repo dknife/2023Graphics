@@ -43,6 +43,13 @@
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec05_RenderingEfficiency_pres.pdf)
 
+강의 06 - 메시 데이터 읽고 그리기
+
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec06_MeshLoading.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec06_MeshLoading_pres.pdf)
+
+  
 ### 실습기록
 
 #### 실습 1
