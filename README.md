@@ -128,4 +128,4 @@
 
 [실습 06-02 메시 정점 그리기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_02_MeshDrawPoints.py)
 
-[소 메시 데이터]()
+[소 메시 데이터](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/cow.txt)
