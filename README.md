@@ -135,3 +135,5 @@
 [실습 06-04 메시 회전](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_04_MeshRotation.py)
 
 [두개골 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/skull.txt)
+
+[실습 06-05 메시 그리기 성능 개선 - display list](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_05_MeshDisplayList.py)
