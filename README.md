@@ -134,4 +134,4 @@
 
 [실습 06-04 메시 회전](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_04_MeshRotation.py)
 
-[두개골 메시](https://github.com/dknife/2023Graphics/tree/main/Ex/Ex06)
+[두개골 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/skull.txt)
