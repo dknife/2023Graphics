@@ -149,3 +149,5 @@
 [실습 07-01 변환의 이해를 위한 기본 코드](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoord.py)
 
 [실습 07-02 지역좌표계 개념을 통한 변환 적용](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoordTransform.py)
+
+[실습 07-03 기본 큐브](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_Arms.py)
