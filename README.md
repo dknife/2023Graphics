@@ -151,3 +151,5 @@
 [실습 07-02 지역좌표계 개념을 통한 변환 적용](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoordTransform.py)
 
 [실습 07-03 기본 큐브](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_Arms.py)
+
+[실습 07-04 스케일이 포함된 누적 변환](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_ArmsWithScale.py)
