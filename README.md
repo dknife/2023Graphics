@@ -51,9 +51,9 @@
 
 강의 07 - 변환과 계층적 모델링
 
-* [강의노트](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec07_HierarchicalModeling.pdf)
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec07_HierarchicalModeling.pdf)
 
-* [발표자료](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec07_HierarchicalModeling_pres.pdf)
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec07_HierarchicalModeling_pres.pdf)
   
 ### 실습기록
 
