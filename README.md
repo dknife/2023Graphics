@@ -142,3 +142,8 @@
 [두개골 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/skull.txt)
 
 [실습 06-05 메시 그리기 성능 개선 - display list](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_05_MeshDisplayList.py)
+
+
+### 실습 7
+
+[실습 07-01 변환의 이해를 위한 코드](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_01_MeshBasic.py)
