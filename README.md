@@ -163,3 +163,5 @@
 [실습 08-3 몸통 제어 및 팔 달기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex03_BaseUnitControl.py)
 
 [실습 08-4 몸통과 팔1 제어](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex04_BaseAndArm1.py)
+
+[실습 08-5 로봇팔 완성성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex05_RobotArmFinal.py)
