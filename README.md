@@ -172,4 +172,6 @@
 
 [실습 09-2 자전하는 태양과 가만히 있는 지구](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/02_SunAndEarth.py)
 
+[실습 09-3 태양-지구-달 계층적 모델링](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
+
 [sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/sphere.txt)
