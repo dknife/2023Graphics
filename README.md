@@ -170,4 +170,4 @@
 
 [실습 09-1 태양](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/01_Sun.py)
 
-[sphere.txt 메시]()
+[sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/sphere.txt)
