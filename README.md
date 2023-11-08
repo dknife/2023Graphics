@@ -158,4 +158,4 @@
 
 [실습 08-1 기본 윈도우](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex01_PlaneAndBase.py)
 
-[실습 08-２ 평면 가시화](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex02_PlaneDisplay.py）
+[실습 08-2 평면 가시화](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex02_PlaneDisplay.py)
