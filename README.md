@@ -153,3 +153,7 @@
 [실습 07-03 기본 큐브](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_Arms.py)
 
 [실습 07-04 스케일이 포함된 누적 변환](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_ArmsWithScale.py)
+
+### 실습 8
+
+[실습 08-1 기본 윈도우](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex01_PlaneAndBase.py)
