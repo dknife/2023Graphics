@@ -9,6 +9,10 @@
 
 ### 담당교수 연락처: ymkang @ tu.ac.kr
 
+### 평가 결과
+
+[중간고사 평가 결과](https://github.com/dknife/2023Graphics/wiki/2023_Graphics3D_midTerm)
+
 ### 강의노트
 
 강의 00 - 강의소개
