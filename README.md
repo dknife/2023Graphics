@@ -58,6 +58,12 @@
 * [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec07_HierarchicalModeling.pdf)
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec07_HierarchicalModeling_pres.pdf)
+
+강의 08 - 색과 조명
+
+* [강의노트](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec08_Colors_Lights.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec08_Colors_Lights_pres.pdf)
   
 ### 실습기록
 
