@@ -193,3 +193,7 @@
 [실습 09-3 태양-지구-달 계층적 모델링](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
 
 [sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/sphere.txt)
+
+### 실습 10
+
+[실습 10-01 조명 설정 - 법선 미설정](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_01_LightBasics.py)
