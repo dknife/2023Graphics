@@ -199,3 +199,5 @@
 [실습 10-01 조명 설정 - 법선 미설정](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_01_LightBasics.py)
 
 [실습 10-02 조명과 법선](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
+
+[실습 10-03 법선 없는 메시 + 조명](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
