@@ -201,3 +201,5 @@
 [실습 10-02 조명과 법선](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
 
 [실습 10-03 법선 없는 메시 + 조명](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
+
+[실습 10-02 면별 법선 설정된 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_04_MeshWNormals.py)
