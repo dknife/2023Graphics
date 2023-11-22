@@ -64,6 +64,14 @@
 * [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec08_Colors_Lights.pdf)
 
 * [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec08_Colors_Lights_pres.pdf)
+
+* 강의 09 - 법선 벡터 설정
+
+* [강의노트](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec08_Colors_Lights.pdf)
+
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec08_Colors_Lights_pres.pdf)
+
+  
   
 ### 실습기록
 
