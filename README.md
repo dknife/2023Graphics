@@ -161,7 +161,6 @@
 
 [실습 06-05 메시 그리기 성능 개선 - display list](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_05_MeshDisplayList.py)
 
+### 실습 11 조명
 
-### 실습 7
-
-[실습 07-01 변환의 이해를 위한 기본 코드](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_loc화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
+[다수의 조명 - 간략화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
