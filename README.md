@@ -192,4 +192,9 @@
 
 [실습 09-3 태양-지구-달 계층적 모델링](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
 
-[sphere.txt 메시](htt기](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1105_PointLightDrawing.py)
+
+### 실습 11 조명
+
+[조명 그리기 모델](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1105_PointLightDrawing.py)
+
+[sphere.txt 메시]
