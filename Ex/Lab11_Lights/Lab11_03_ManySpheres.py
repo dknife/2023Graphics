@@ -158,10 +158,10 @@ class MyGLWidget(QOpenGLWidget):
 ## >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-        for i in range(0, 50, 2):
-            for j in range(0, 50, 2):
+        for x in range(-50, 50, 2):
+            for z in range(-50, 50, 2):
                 glPushMatrix()
-                glTranslatef(i-25, 0, j-25)
+                glTranslatef(x, 0, z)
                 self.myLoader.draw_display_list()
                 glPopMatrix()
         self.angle += 1.0
