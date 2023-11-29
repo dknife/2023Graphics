@@ -209,3 +209,5 @@
 ### 실습 11 - 조명
 
 [실습 11-01 조명 기본](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_01_LightSimple.py)
+
+[사용할 메시 모델 - 구](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/sphere.txt)
