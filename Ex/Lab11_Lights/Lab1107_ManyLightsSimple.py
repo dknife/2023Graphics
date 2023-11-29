@@ -91,26 +91,27 @@ class MeshLoader :
 
 ## >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 mat_spec = [1, 1, 1, 1]
-mat_diff = [0.3, 0.3, 0.3, 1]
+mat_diff = [0.5, 0.5, 0.5, 1]
 mat_ambi = [0, 0, 0, 1]
 mat_shin = [120]
 
-lit_spec0 = [1, 1, 1, 1]
-lit_diff0 = [1, 1, 0, 1]
+lit_spec0 = [1, 0, 0, 1]
+lit_diff0 = [1, 0, 0, 1]
 lit_ambi0 = [0, 0, 0, 1]
 
 lit_spec1 = [0, 1, 1, 1]
 lit_diff1 = [0, 1, 1, 1]
 lit_ambi1 = [0, 0, 0, 1]
 
-lit_spec2 = [0, 1, 1, 1]
+lit_spec2 = [1, 1, 1, 1]
 lit_diff2 = [1, 1, 1, 1]
 lit_ambi2 = [0, 0, 0, 1]
 
-lit_position0 = [-20, 5, 20, 1]
-lit_position1 = [ 20, 5, 20, 1]
-lit_position2 = [  0, 5, 20, 1]
+lit_position0 = [-20, 5, 0, 1]
+lit_position1 = [ 20, 5, 0, 1]
+lit_position2 = [  0, 5, 0, 1]
 
+spot_direction = [0, -1, 0]
 def LightSet():
     glMaterialfv(GL_FRONT, GL_SPECULAR, mat_spec)
     glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diff)
@@ -120,34 +121,37 @@ def LightSet():
     glLightfv(GL_LIGHT0, GL_SPECULAR, lit_spec0)
     glLightfv(GL_LIGHT0, GL_DIFFUSE, lit_diff0)
     glLightfv(GL_LIGHT0, GL_AMBIENT, lit_ambi0)
+    glLightfv(GL_LIGHT0, GL_SPOT_CUTOFF, [40.0])
+    glLightfv(GL_LIGHT0, GL_SPOT_DIRECTION, spot_direction)
 
     glLightfv(GL_LIGHT1, GL_SPECULAR, lit_spec1)
     glLightfv(GL_LIGHT1, GL_DIFFUSE, lit_diff1)
     glLightfv(GL_LIGHT1, GL_AMBIENT, lit_ambi1)
+    glLightfv(GL_LIGHT1, GL_SPOT_CUTOFF, [40.0])
+    glLightfv(GL_LIGHT1, GL_SPOT_DIRECTION, spot_direction)
 
     glLightfv(GL_LIGHT2, GL_SPECULAR, lit_spec2)
     glLightfv(GL_LIGHT2, GL_DIFFUSE, lit_diff2)
     glLightfv(GL_LIGHT2, GL_AMBIENT, lit_ambi2)
+    glLightfv(GL_LIGHT2, GL_SPOT_CUTOFF, [40.0])
+    glLightfv(GL_LIGHT2, GL_SPOT_DIRECTION, spot_direction)
 
     glEnable(GL_LIGHTING)
     glEnable(GL_LIGHT0)
     glEnable(GL_LIGHT1)
     glEnable(GL_LIGHT2)
-    
-    
 
 
 def LightPositioning() :
     glLightfv(GL_LIGHT0, GL_POSITION, lit_position0)
-    glLightfv(GL_LIGHT0, GL_POSITION, lit_position1)
-    glLightfv(GL_LIGHT0, GL_POSITION, lit_position2)
+    glLightfv(GL_LIGHT1, GL_POSITION, lit_position1)
+    glLightfv(GL_LIGHT2, GL_POSITION, lit_position2)
     
 
 class MyGLWidget(QOpenGLWidget):
 
     def __init__(self, parent=None):
-        super().__init__(parent)
-       
+        super().__init__(parent)       
 
     def initializeGL(self):
         # OpenGL 그리기를 수행하기 전에 각종 상태값을 초기화
@@ -171,10 +175,10 @@ class MyGLWidget(QOpenGLWidget):
  
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glMatrixMode(GL_MODELVIEW)
-        glLoadIdentity()       
-
-        gluLookAt(0,15,50, 0,0,0, 0,1,0)
+        glLoadIdentity()  
+        gluLookAt(0,15,50, 0,0,0, 0,1,0)             
         LightPositioning()
+        
 
 
         for x in range(-50, 50, 2):
