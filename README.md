@@ -192,26 +192,4 @@
 
 [실습 09-3 태양-지구-달 계층적 모델링](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
 
-[sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/sphere.txt)
-
-### 실습 10
-
-[실습 10-01 조명 설정 - 법선 미설정](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_01_LightBasics.py)
-
-[실습 10-02 조명과 법선](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
-
-[실습 10-03 법선 없는 메시 + 조명](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
-
-[실습 10-04 면별 법선 설정된 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_04_MeshWNormals.py)
-
-[실습 10-05 정점별 법선 설정된 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_05_MeshWVertexNormals.py)
-
-### 실습 11 - 조명
-
-[실습 11-01 조명 기본](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_01_LightSimple.py)
-
-[사용할 메시 모델 - 구](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/sphere.txt)
-
-[실습 11-02 많은 구의 배치](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_03_ManySpheres.py)
-
-[실습 11-03 점광원 w=1](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1104_PointLight.py)
+[sphere.txt 메시](htt기](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1105_PointLightDrawing.py)
