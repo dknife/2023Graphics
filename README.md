@@ -205,3 +205,7 @@
 [실습 10-04 면별 법선 설정된 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_04_MeshWNormals.py)
 
 [실습 10-05 정점별 법선 설정된 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_05_MeshWVertexNormals.py)
+
+### 실습 11 - 조명
+
+[실습 11-01 조명 기본](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_01_LightSimple.py)
