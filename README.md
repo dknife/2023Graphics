@@ -164,39 +164,4 @@
 
 ### 실습 7
 
-[실습 07-01 변환의 이해를 위한 기본 코드](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoord.py)
-
-[실습 07-02 지역좌표계 개념을 통한 변환 적용](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoordTransform.py)
-
-[실습 07-03 기본 큐브](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_Arms.py)
-
-[실습 07-04 스케일이 포함된 누적 변환](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_ArmsWithScale.py)
-
-### 실습 8
-
-[실습 08-1 기본 윈도우](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex01_PlaneAndBase.py)
-
-[실습 08-2 평면 가시화](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex02_PlaneDisplay.py)
-
-[실습 08-3 몸통 제어 및 팔 달기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex03_BaseUnitControl.py)
-
-[실습 08-4 몸통과 팔1 제어](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex04_BaseAndArm1.py)
-
-[실습 08-5 로봇팔 완성성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex05_RobotArmFinal.py)
-
-### 실습 9
-
-[실습 09-1 태양](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/01_Sun.py)
-
-[실습 09-2 자전하는 태양과 가만히 있는 지구](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/02_SunAndEarth.py)
-
-[실습 09-3 태양-지구-달 계층적 모델링](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
-
-
-### 실습 11 조명
-
-[조명 그리기 모델](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1105_PointLightDrawing.py)
-
-[sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/sphere.txt)
-
-[많은 광원]()
+[실습 07-01 변환의 이해를 위한 기본 코드](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_loc화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
