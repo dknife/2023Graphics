@@ -114,15 +114,16 @@ def LightSet():
     glEnable(GL_LIGHTING)
     glEnable(GL_LIGHT0)
 
-def LightPositioning(x, y, z, w) :
-    glLightfv(GL_LIGHT0, GL_POSITION, [x, y, z, w])
+def LightPositioning(position) :
+    glLightfv(GL_LIGHT0, GL_POSITION, position)
 ## >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 class MyGLWidget(QOpenGLWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.lightPos = 2.0
+        self.lightPos = [0, 1, 0]
+        self.PointLight = True
        
 
     def initializeGL(self):
@@ -151,7 +152,11 @@ class MyGLWidget(QOpenGLWidget):
 
         gluLookAt(0,15,50, 0,0,0, 0,1,0)
 ## >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        LightPositioning(0, self.lightPos, 0, 1)
+        position = self.lightPos
+        if self.PointLight : w = 1
+        else: w = 0
+        position.append(w)
+        LightPositioning(position)
 ## >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -166,7 +171,7 @@ class MyGLWidget(QOpenGLWidget):
         glDisable(GL_LIGHTING)
         glColor3f(1, 1, 1)
         glPushMatrix()
-        glTranslatef(0, self.lightPos, 0)
+        glTranslatef(self.lightPos[0], self.lightPos[1], self.lightPos[2])
         glScalef(0.2, 0.2, 0.2)
         self.myLoader.draw_display_list()
         glPopMatrix()
@@ -185,7 +190,10 @@ class MyWindow(QMainWindow):
     def keyPressEvent(self, e):
         
         if e.key() == Qt.Key.Key_W:
-            self.glWidget.lightPos += 0.1
+            self.glWidget.lightPos[1] += 0.1
+            self.glWidget.update()
+        if e.key() == Qt.Key.Key_S:
+            self.glWidget.lightPos[1] -= 0.1
             self.glWidget.update()
    
 def main(argv = []):
