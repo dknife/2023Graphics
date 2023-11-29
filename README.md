@@ -161,6 +161,49 @@
 
 [실습 06-05 메시 그리기 성능 개선 - display list](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex06/06_05_MeshDisplayList.py)
 
+### 실습 7 변환
+
+[실습 07-01 지역좌표](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoord.py)
+
+[실습 07-02 지역좌표 변환](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/07_localCoordTransform.py)
+
+[실습 07-03 로봇팔 1](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_Arms.py)
+
+[실습 07-04 로봇팔 2](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex07/Ex07_03_ArmsWithScale.py)
+
+### 실습 8 로봇팔 
+
+[실습 08-01 기본](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex01_PlaneAndBase.py)
+
+[실습 08-02 속도개선](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex02_PlaneDisplay.py)
+
+[실습 08-03 베이스 제어](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex03_BaseUnitControl.py)
+
+[실습 08-04 팔 1](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex04_BaseAndArm1.py)
+
+[실습 08-05 로봇 완성](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex08/Ex05_RobotArmFinal.py)
+
+### 실습 9 태양계
+
+[실습 09-01 태양](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/01_Sun.py)
+
+[실습 09-02 태양-지구](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/02_SunAndEarth.py)
+
+[실습 09-03 태양지구달](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex09/03_SunEarthAndMoon.py)
+
+### 실습 10 법선
+
+[실습 10-01 조명 켜기](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_01_LightBasics.py)
+
+[실습 10-02 법선 설정 기본](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_02_LIghtingWNormal.py)
+
+[실습 10-03 메시와 법선 - 면별 1](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_03_MeshNoNormals.py)
+
+[실습 10-04 메시와 법선 - 면별 2](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_04_MeshWNormals.py)
+
+[실습 10-05 메시와 법선 - 정점별](https://github.com/dknife/2023Graphics/blob/main/Ex/Ex10_Lighting/Ex10_05_MeshWVertexNormals.py)
+
+
 ### 실습 11 조명
 
 [다수의 조명 - 간략화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
