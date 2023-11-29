@@ -197,4 +197,4 @@
 
 [조명 그리기 모델](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1105_PointLightDrawing.py)
 
-[sphere.txt 메시]
+[sphere.txt 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/sphere.txt)
