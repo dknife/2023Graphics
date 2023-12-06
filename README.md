@@ -209,3 +209,17 @@
 [다수의 조명 - 간략화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
 
 [스포트라이트](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_04_SpotLights.py)
+
+### 실습 12 텍스처 매핑
+
+[텍스처를 붙일 사각형](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/01_plane.py)
+
+[서로다른 텍스처를 붙일 사각형 둘](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/04_multitexture.py)
+
+[텍스처를 붙일 메시](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/05_meshTextureOff.py)
+
+[텍스처 1](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/image.jpg)
+
+[텍스처 2](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/space.jpg)
+
+[텍스처 3](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/spheremap.jpg)
