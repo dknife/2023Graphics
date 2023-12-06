@@ -207,3 +207,5 @@
 ### 실습 11 조명
 
 [다수의 조명 - 간략화](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab1107_ManyLightsSimple.py)
+
+[스포트라이트](https://github.com/dknife/2023Graphics/blob/main/Ex/Lab11_Lights/Lab11_04_SpotLights.py)
