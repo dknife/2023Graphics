@@ -215,6 +215,8 @@
 ### 실습 12 텍스처 매핑
 
 [텍스처를 붙일 사각형](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/01_plane.py)
+- [Lab01 - 간단한 텍스처]()
+- [Lab02 - 이미지 텍스처]()
 
 [서로다른 텍스처를 붙일 사각형 둘](https://github.com/dknife/2023Graphics/blob/main/Ex/Textures/04_multitexture.py)
 
