@@ -73,7 +73,7 @@
 
 강의 10 - 텍스처 매핑
 
-* [발표자료](https://github.com/dknife/2023Graphics/blob/main/LectureNotes/Lec10_TextureMapping.pdf)
+* [발표자료](https://github.com/dknife/2023Graphics/raw/main/LectureNotes/Lec10_TextureMapping.pdf)
   
 ### 실습기록
 
